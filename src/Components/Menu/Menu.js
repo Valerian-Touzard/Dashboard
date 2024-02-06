@@ -1,6 +1,6 @@
 import React, {useEffect} from 'react'
 import './Menu.css'
-import Logo from '../img/logo.png'
+import Logo from '../../img/logo.png'
 import Icon from './Icon/Icon'
 
 import {

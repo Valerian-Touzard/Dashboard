@@ -63,6 +63,34 @@
     font-weight: 600;
 }
 
+/* Cards */
+.mainContainer .left .cards {
+    background-color: #19162c;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 0.5em;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+}
+
+.mainContainer .left .cards .filters{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 30px;
+}
+
+.mainContainer .left .cards .filters .popular{
+    display: flex;
+    align-items: center;
+}
+
+.mainContainer .left .cards .filters .popular h2{
+    font-size: 20px;
+    font-weight: bold;
+    color: #d1cfd4;
+    margin-right: 10px;
+}
+
 .mainContainer .right{
     width: calc(100% - 70%);
 }

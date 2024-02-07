@@ -21,12 +21,28 @@ const MainContainer = () => {
             <h2>1.5 ETH</h2>
             <p>Uploaded by Valerian Touzard</p>
             <div className="bid">
-              <a href="" className="button1">
+              <a href="#" className="button1">
                 Bid Now
               </a>
               <p>Ending In <span>2d:15h:20m</span></p>
             </div>
           </div>
+        </div>
+
+
+        <div className="cards">
+            <div className="filters">
+                <div className="popular">
+                    <h2>Feed</h2>
+                    <a href="#" className="button2">Popular</a>
+                </div>
+                <div className="filter_buttons">
+                    <a href="" className="button1">All</a>
+                    <a href="" className="button2">Illustration</a>
+                    <a href="" className="button2">Art</a>
+                    <a href="" className="button2">Games</a>
+                </div>
+            </div>
         </div>
       </div>
       <div className="right"></div>

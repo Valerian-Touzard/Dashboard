@@ -178,4 +178,55 @@
 
 .mainContainer .right{
     width: calc(100% - 70%);
+    padding: 0 10px;
+    padding-left: 20px;
+    transition: all 0.3s cubic-bezier(0.17, 0.81, 0.38, 1.39);
+}
+
+.mainContainer .right .topCard{
+    background: #19162c;
+    border-radius: 0.5em;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+    padding: 10px 20px;
+}
+
+.mainContainer .right .topCard .topCard_Name{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.mainContainer .right .topCard .topCard_Name h2{
+    color: #d1d0d5;
+}
+
+.mainContainer .right .topCard .topCard_Name a{
+    color: #b1147d;
+}
+
+.mainContainer .right .topCard .earning{
+    width: 100%;
+    padding: 5px 10px;
+}
+
+.mainContainer .right .topCard .earning p{
+    margin: 8px 0;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 12px;
+    font-weight: bold;
+    color: #adabb8;
+}
+
+.mainContainer .right .topCard .earning p:nth-child(odd){
+    background-color: #211d3a;
+    border-radius: 0.5em;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+}
+
+.mainContainer .right .topCard .earning p:last-child span{
+    font-size: 14px;
+    color: #b1147d;
 }

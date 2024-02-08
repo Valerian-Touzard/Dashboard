@@ -66,6 +66,7 @@ const MainContainer = () => {
       </div>
       <div className="right">
         <MainRightTop />
+        <MainRightBottom />
       </div>
     </div>
   );
